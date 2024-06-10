@@ -26,9 +26,9 @@ if __name__ == '__main__':
                 'Saldo':0
             }
 
-            correntista['Nome'] = input('Informe o nome a ser cadastrado: ')
+            correntista['Nome'] = input('Informe o nome para cadastrado: ')
             correntistas.append(correntista)
-            print(f'{correntista['Nome']} cadastrado com sucesso.')
+            print(f'{correntista['Nome']} cadastrado com sucesso!')
 
             continue
 
